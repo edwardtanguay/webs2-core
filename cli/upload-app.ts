@@ -34,7 +34,10 @@ async function uploadApp() {
       host,
       user,
       password,
-      secure: false
+      secure: true,
+      secureOptions: {
+        rejectUnauthorized: false
+      }
     });
 
     console.log("Connected to FTP server.");
