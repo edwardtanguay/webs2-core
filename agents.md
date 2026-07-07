@@ -26,4 +26,11 @@
 - if it is an app that has to do with learning languages, then add it under the sub-header "language sites"
 	- otherwise add it under the sub-header "other projects"
 
+## after creating or updating an app
 
+- change the CSS link with a cache buster so it always reloads
+- upload app via FTP (see ".env" file for FTP infos)
+	- e.g. if app is "frenchnouns", then upload "../frenchnouns" to the webs2 server in "public_html/frenchnouns".
+- after updating "../tinfo" then upload ONLY THE FOLLOWING:
+	- '../tinfo/index.html' to "public_html/index.html"
+	- '../tinfo/styles.css' to "public_html/styles.css"
