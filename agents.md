@@ -20,4 +20,10 @@
 - if you have e.g. items that have spaces like "1.99 €" that should stay together, make sure it doesn't break on the space
 - if you have a checklist of checkboxes, that the boxes are top-aligned, not in the middle of the text
 
+## add to tanguay.info site
+
+- when you create a new app, also go to "../tinfo" and add an entry for that app
+- if it is an app that has to do with learning languages, then add it under the sub-header "language sites"
+	- otherwise add it under the sub-header "other projects"
+
 
