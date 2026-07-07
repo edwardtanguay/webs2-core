@@ -1,0 +1,19 @@
+{
+  "name": "webs2-core",
+  "version": "1.0.0",
+  "description": "Core deployment scripts and utilities for webs2",
+  "main": "index.js",
+  "scripts": {
+    "upload": "ts-node cli/upload-app.ts",
+    "upload-tinfo": "ts-node cli/upload-tinfo.ts"
+  },
+  "dependencies": {
+    "basic-ftp": "^5.0.4",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
