@@ -13,5 +13,11 @@
 
 - it is always responsive for mobile and desktop
 - there is always a small link at the top of the app that says "(see more projects by Edward)" where "Edward" links to "https://tanguay.info" in a new tab
+- always give it a light/dark switch
+
+## quality check
+
+- if you have e.g. items that have spaces like "1.99 €" that should stay together, make sure it doesn't break on the space
+- if you have a checklist of checkboxes, that the boxes are top-aligned, not in the middle of the text
 
 
