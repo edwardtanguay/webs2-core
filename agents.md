@@ -1,2 +1,36 @@
 # webs2-core
 
+## when creating an app
+
+- make a directory of its name in the directory above this one, e.g. if name is "frenchnouns" make a directory "../frenchnouns"
+- create the app with HTML, CSS and JavaScript
+- HTML file is called index.html
+- There is one CSS file called main.css
+- There is one JS file called main.js
+- All files should be in the same directory
+
+## characteristics of an app
+
+- it is always responsive for mobile and desktop
+- there is always a small link at the top of the app that says "(see more projects by Edward)" where "Edward" links to "https://tanguay.info" in a new tab
+- always give it a light/dark switch
+
+## quality check
+
+- if you have e.g. items that have spaces like "1.99 €" that should stay together, make sure it doesn't break on the space
+- if you have a checklist of checkboxes, that the boxes are top-aligned, not in the middle of the text
+
+## add to tanguay.info site
+
+- when you create a new app, also go to "../tinfo" and add an entry for that app
+- if it is an app that has to do with learning languages, then add it under the sub-header "language sites"
+	- otherwise add it under the sub-header "other projects"
+
+## after creating or updating an app
+
+- change the CSS link with a cache buster so it always reloads
+- upload app via FTP (see ".env" file for FTP infos)
+	- e.g. if app is "frenchnouns", then upload "../frenchnouns" to the webs2 server in "public_html/frenchnouns".
+- after updating "../tinfo" then upload ONLY THE FOLLOWING:
+	- '../tinfo/index.html' to "public_html/index.html"
+	- '../tinfo/styles.css' to "public_html/styles.css"
